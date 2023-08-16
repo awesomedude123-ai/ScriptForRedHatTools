@@ -1,3 +1,4 @@
+cd ~
 ##Updating Apt-Get
 sudo apt-get update
 
