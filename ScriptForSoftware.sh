@@ -61,9 +61,6 @@ sudo ./metasploit-latest-linux-x64-installer.run
 ##Downloading Invoke-Obfuscation
 echo "Installing Inoke-Obfuscation............."
 git clone https://github.com/danielbohannon/Invoke-Obfuscation.git
-pwsh
-Import-Module ./Invoke-Obfuscation/Invoke-Obfuscation.psm1
-exit
 
 ##Downloading Hashcat
 echo "Installing Hashcat............."
