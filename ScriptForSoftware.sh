@@ -131,26 +131,11 @@ sudo apt-get install dnsutils
 
 
 echo "All software has been installed. Below is a list of the software downloaded and a list of possible softwares that can be installed but are not through this script."
-$software_installed = ["Git","Python3","Pip","PowerShell","Nmap","Sqlmap","Nikto","OpenVAS","SET","Metasploit","Invoke-Obfuscation","Hashcat","BeEF",
-"PowerUp","BeRoot","PAExec","LaZagne","EvilURL","Pupy","DNSCAT2","Cloakify Factory","DNSExfiltrator"]
+software_installed = ("Git","Python3","Pip","PowerShell","Nmap","Sqlmap","Nikto","OpenVAS","SET","Metasploit","Invoke-Obfuscation","Hashcat","BeEF","PowerUp","BeRoot","PAExec","LaZagne","EvilURL","Pupy","DNSCAT2","Cloakify Factory","DNSExfiltrator")
 
 echo "Software Downloaded:"
 x=0
-for i in $software_installed
-do
+for i in ${software_installed[@]}; do
     echo "$x: $i"
     x+=1
 done
-
-$software_not_installed_through_scipt=["Spiderfoot","Intrigue","Maltego","Shodan","SecurityTrails API","Veil","Gophish","King Phisher","BloodHound","Mimikatz","CrackMapExec"
-,"Empire Project","Cobalt Strike","DET","Powershell-Rat","Hacktrails","SecurityTrails SQL"]
-
-echo "Software Not Downloaded:"
-x=0
-for i in $software_not_installed_through_scipt
-do
-    echo "$x: $i"
-    x+=1
-done
-
-echo "If you know how to download these software, please feel free to make changes to this script and increase its functionality"
