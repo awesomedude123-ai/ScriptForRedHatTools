@@ -1,7 +1,7 @@
 #!/bin/usr/env bash
 
 
-echo "Below is a list of the software going to be downloaded."
+echo "\n\nBelow is a list of the software going to be downloaded."
 
 ##List of softwares that can be installed. If a new software is added to the script, please also add it here so that the 
 declare -a software_installed=(
@@ -35,7 +35,7 @@ for i in ${software_installed[@]}; do
 done
 
 echo "Setting up Environment. Please take a look at the list of softwares."
-wait 10
+sleep 10
 
 cd ~
 ##Updating Apt-Get
