@@ -49,4 +49,3 @@ This is a list of software that is installed by running this script. Any new sof
 20.	DNSCAT2
 21.	Cloakify Factory
 22.	DNSExfiltrator
-![image](https://github.com/awesomedude123-ai/ScriptForRedHatTools/assets/66534860/5ac9233a-669d-4929-8e07-15c33a562d16)
