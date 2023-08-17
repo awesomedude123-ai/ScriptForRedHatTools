@@ -2,7 +2,7 @@
 
 This project is used to automate the installation of common Red Hat Tools in Ubuntu Machines
 
-Install
+##Install
 
 To install and utilize this script, first clone it from git onto the machine that will consist of the tools. 
 
