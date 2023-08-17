@@ -31,7 +31,7 @@ declare -a software_installed=(
 x=0
 for i in ${software_installed[@]}; do
     echo "$x: $i"
-    x+=1
+    ((x+=1))
 done
 
 echo "Setting up Environment. Please take a look at the list of softwares."
@@ -168,4 +168,4 @@ sudo apt-get dist-upgrade
 sudo apt-get install bind9
 sudo apt-get install dnsutils
 
-echo "If there is any other software that needs to be installed, you can add it to this script and add it to the list of software going to be installed."
+echo "All softwares are downloaded and successful. If there is any other software that needs to be installed, you can add it to this script and add it to the list of software going to be installed."
