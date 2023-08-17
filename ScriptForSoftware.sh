@@ -1,3 +1,42 @@
+#!/bin/usr/env bash
+
+
+echo "Below is a list of the software going to be downloaded."
+
+##List of softwares that can be installed. If a new software is added to the script, please also add it here so that the 
+declare -a software_installed = (
+    [0]="Git"
+    [1]="Python3"
+    [2]="Pip" 
+    [3]="PowerShell"
+    [4]="Nmap"
+    [5]="Sqlmap"
+    [6]="Nikto"
+    [7]="OpenVAS"
+    [8]="SET"
+    [9]="Metasploit"
+    [10]="Invoke-Obfuscation"
+    [11]="Hashcat"
+    [12]="BeEF"
+    [13]="PowerUp"
+    [14]="BeRoot"
+    [15]="PAExec"
+    [16]="LaZagne"
+    [17]="EvilURL"
+    [18]="Pupy"
+    [19]="DNSCAT2"
+    [20]="Cloakify Factory"
+    [21]="DNSExfiltrator"
+    )
+x=0
+for i in ${software_installed[@]}; do
+    echo "$x: $i"
+    x+=1
+done
+
+echo "Setting up Environment. Please take a look at the list of softwares."
+wait 10
+
 cd ~
 ##Updating Apt-Get
 sudo apt-get update
@@ -129,13 +168,4 @@ sudo apt-get dist-upgrade
 sudo apt-get install bind9
 sudo apt-get install dnsutils
 
-
-echo "All software has been installed. Below is a list of the software downloaded and a list of possible softwares that can be installed but are not through this script."
-software_installed = ("Git","Python3","Pip","PowerShell","Nmap","Sqlmap","Nikto","OpenVAS","SET","Metasploit","Invoke-Obfuscation","Hashcat","BeEF","PowerUp","BeRoot","PAExec","LaZagne","EvilURL","Pupy","DNSCAT2","Cloakify Factory","DNSExfiltrator")
-
-echo "Software Downloaded:"
-x=0
-for i in ${software_installed[@]}; do
-    echo "$x: $i"
-    x+=1
-done
+echo "If there is any other software that needs to be installed, you can add it to this script and add it to the list of software going to be installed."
