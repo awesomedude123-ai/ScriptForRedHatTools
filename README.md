@@ -2,28 +2,28 @@
 
 This project is used to automate the installation of common Red Hat Tools in Ubuntu Machines
 
-##Install
+## Install
 
 To install and utilize this script, first clone it from git onto the machine that will consist of the tools. 
 
 git clone <link>
 
-Usage/Getting Started
+## Usage/Getting Started
 
 Once cloned, open the directory, and run the script. Pop ups will come asking for user confirmation once installation of software begins. Make sure to not leave the machine until script is finished running. The estimated run time is about 5-6 minutes. 
 
 cd ScriptForRedHatTools
 bash ScriptForSoftware.sh
 
-Troubleshooting
+## Troubleshooting
 
 If an error is occurring that does not let the script to run, please scroll and find which specific software is not being installed (I outputted “*********name***********” before each software’s installation for easy identification).
 
-Contributing
+## Contributing
 
 This script has been tested and successful on a Ubuntu machine. However, it has not been tested on other machines, specifically Linux. Making this script cross platform should be the next step. In addition, if a specific software was not installed via this script, feel free to add the installation code to this script to allow future users to have convenient access to the software as well. 
 
-Software
+## Software
 
 This is a list of software that is installed by running this script. Any new software being added should also be added to this list for reference.
 
