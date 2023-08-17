@@ -1,6 +1,6 @@
 #!/bin/usr/env bash
 
-echo "Setting up Environment. Please take a look at the list of softwares."
+echo "Setting up Environment."
 sleep 10
 
 cd ~
