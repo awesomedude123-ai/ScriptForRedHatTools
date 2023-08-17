@@ -17,11 +17,11 @@ bash ScriptForSoftware.sh
 
 ## Troubleshooting
 
-If an error is occurring that does not let the script to run, please scroll and find which specific software is not being installed (I outputted “*********name***********” before each software’s installation for easy identification).
+If an error is occurring that does not let the script to run, please scroll and find which specific software is not being installed (I outputted '*name*' before each software’s installation for easy identification).
 
 ## Contributing
 
-This script has been tested and successful on a Ubuntu machine. However, it has not been tested on other machines, specifically Linux. Making this script cross platform should be the next step. In addition, if a specific software was not installed via this script, feel free to add the installation code to this script to allow future users to have convenient access to the software as well. 
+This script has been tested and successful on a Ubuntu machine. However, it has not been tested on other machines, specifically Linux. Making this script cross-platform should be the next step. In addition, if a specific software was not installed via this script, feel free to add the installation code to this script to allow future users to have convenient access to the software as well. 
 
 ## Software
 
