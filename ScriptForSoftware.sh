@@ -4,7 +4,7 @@
 echo "Below is a list of the software going to be downloaded."
 
 ##List of softwares that can be installed. If a new software is added to the script, please also add it here so that the 
-declare -a software_installed = (
+declare -a software_installed=(
     [0]="Git"
     [1]="Python3"
     [2]="Pip" 
